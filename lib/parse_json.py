@@ -39,6 +39,7 @@ def parse_json(json_file):
         device_dict['nodes'].append(Nodes(
             ele_data['name'],
             ele_data['phase']
+            
         ))
 
     for ele_data in json_data['resistors']:

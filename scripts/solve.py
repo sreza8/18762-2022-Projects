@@ -42,6 +42,7 @@ def solve(TESTCASE, SETTINGS):
     # You can determine the size of the Y matrix by looking at the total
     # number of nodes in the system.
     size_Y = assign_node_indexes(devices)
+    print(devices['nodes'])
     
     # # # Initialize solution vector # # #
     # TODO: STEP 1 - Complete the function to find your state vector at time t=0.
